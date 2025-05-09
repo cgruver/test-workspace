@@ -1,0 +1,10 @@
+schemaVersion: 2.3.0
+attributes:
+  controller.devfile.io/storage-type: ephemeral
+metadata:
+  name: test-default-extensions
+components:
+  - container:
+      image: nexus.clg.lab:5002/dev-spaces/workspace-base:latest
+      sourceMapping: /projects
+    name: tools
