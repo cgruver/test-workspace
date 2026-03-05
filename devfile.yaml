@@ -5,6 +5,7 @@ metadata:
   name: test-workspace
 components:
   - container:
-      image: quay.io/cgruver0/che/workspace-base:latest
+      # image: quay.io/cgruver0/che/workspace-base:latest
+      image: ghcr.io/ansible/ansible-devspaces:latest
       sourceMapping: /projects
     name: tools
